@@ -1,20 +1,54 @@
 <html>
     <head> 
-        <h1>Hola mundo!</h1>
-        <h2>Acá aprendemos HTML</h2>
+        <title>Hola mundo!</title>
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
+        <header class="header">
+            <h1 class="page-title">
+                Hola mundo!
+            </h1>
 
+            <h2 class="page-subtitle">
+                Acá aprendemos HTML
+            </h2>
         </header>
-        <main>
+        <main class="container">
+            <section class="blog">
+                <article class="blog-post">
+                    <h3 id="sv">Stardew Valley</h3>
+                    <p>
+                        El juego de la granjita
+                    </p>
+                </article>
+                <article class="blog-post">
+                    <h3 id="pubg">PUBG</h3>
+                    <p>
+                        Juego de FPS en primera persona y tercera (aveces anda como el orto)
+                    </p>
+                </article>
+                <article class="blog-post">
+                    <h3 id="fornite">Fornite</h3>
+                    <p>
+                        El pubg para pobres
+                    </p>
+                </article>
+                <article class="blog-post">
+                    <h3 id="aoe">Age of empires</h3>
+                    <p>
+                        Juego donde se pone en evidencia la mejor arma de la epoca medieval, el cobra!
+                    </p>
+                </article>
+            </section>
             <form> 
                 <input 
+                class="input"
                 id="gameName"
                 placeholder="Insert the name of your favorite Game"
                 required
                 type="text" />
                 <textarea
+                    class="textarea"
                     id="gameDescription"
                     placeholder="insert a description"
                     required
@@ -29,11 +63,24 @@
             
 
             </form>
-
+        <ol>
+            <il>
+                <a href="sv">Stardew valley</a></il></br>
+            </il>
+            <il>
+                <a href="pubg">PUBG</a></br>
+            </il>
+            <il>
+                <a href="fornite">Fornite</a></br>
+            </il>
+            <il>
+                <a href="aoe">Age of empire</a></br>
+            </il>
+        </ol>
 
         </main>
         <footer>
-
+                (c) 2020 Daniel Alfredo Linguito
         </footer>
     </body>
 </html>
