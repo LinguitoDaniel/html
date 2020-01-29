@@ -4,6 +4,7 @@
         <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
+
         <header class="header">
             <h1 class="page-title">
                 Hola mundo!
@@ -40,7 +41,8 @@
                     </p>
                 </article>
             </section>
-            <form> 
+            
+            <form id="newGameForm"> 
                 <input 
                 class="input"
                 id="gameName"
@@ -52,35 +54,33 @@
                     id="gameDescription"
                     placeholder="insert a description"
                     required
-                    type="text">
-                </textarea>
-                <button type="submit">
+                    type="text"></textarea>
+                <button class="button primary" type="submit">
                     Add
                 </button>
-                <button type="reset">
+                <button class="button secondary" type="reset">
                     Reset
                 </button>
-            
-
             </form>
-        <ol>
-            <il>
-                <a href="sv">Stardew valley</a></il></br>
-            </il>
-            <il>
+        <ul>
+            <li>
+                <a href="sv">Stardew valley</a></br>
+            </li>
+            <li>
                 <a href="pubg">PUBG</a></br>
-            </il>
-            <il>
+            </li>
+            <li>
                 <a href="fornite">Fornite</a></br>
-            </il>
-            <il>
+            </li>
+            <li>
                 <a href="aoe">Age of empire</a></br>
-            </il>
-        </ol>
+            </li>
+        </ul>
 
         </main>
-        <footer>
+       </body>
+       <footer class="footer">
                 (c) 2020 Daniel Alfredo Linguito
+                <img class="logo" src="img/logo.jpg" alt="aca va el logo">
         </footer>
-    </body>
 </html>
